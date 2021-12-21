@@ -1,0 +1,2470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 12f3967308ad0e64496b270c6a4e34c8,
+    type: 2}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &185636870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185636871}
+  - component: {fileID: 185636874}
+  - component: {fileID: 185636873}
+  - component: {fileID: 185636872}
+  m_Layer: 5
+  m_Name: ButtonPlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &185636871
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185636870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1429271044}
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.0002437, y: 179.99998}
+  m_SizeDelta: {x: 318.9, y: 91.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &185636872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185636870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 185636873}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 989049251}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: ButtonPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &185636873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185636870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c49dec645e591114caac11d081103cfc, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &185636874
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185636870}
+  m_CullTransparentMesh: 0
+--- !u!1 &224262899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224262900}
+  - component: {fileID: 224262903}
+  - component: {fileID: 224262902}
+  - component: {fileID: 224262901}
+  m_Layer: 5
+  m_Name: ButtonCountries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &224262900
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224262899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2132830011}
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.0002437, y: 51.999985}
+  m_SizeDelta: {x: 318.9, y: 91.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &224262901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224262899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 224262902}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 989049251}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: ButtonCountries
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &224262902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224262899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c49dec645e591114caac11d081103cfc, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &224262903
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224262899}
+  m_CullTransparentMesh: 0
+--- !u!1 &329637200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329637201}
+  m_Layer: 0
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329637201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329637200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 989049247}
+  m_Father: {fileID: 499869081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &499869080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499869081}
+  m_Layer: 0
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499869081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499869080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 329637201}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 10
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1793783424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &557572706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 557572707}
+  - component: {fileID: 557572710}
+  - component: {fileID: 557572709}
+  - component: {fileID: 557572708}
+  m_Layer: 5
+  m_Name: EnterSceneImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &557572707
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557572706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.00012207, y: -0.000061035}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &557572708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557572706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149eb4ab0f0fca544a1efe03279cd9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaLevel: 1
+--- !u!114 &557572709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557572706}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &557572710
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557572706}
+  m_CullTransparentMesh: 0
+--- !u!1 &834434214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 834434215}
+  - component: {fileID: 834434218}
+  - component: {fileID: 834434217}
+  - component: {fileID: 834434216}
+  m_Layer: 5
+  m_Name: ButtonRecords
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &834434215
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834434214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1069928170}
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.0003, y: -72}
+  m_SizeDelta: {x: 318.9, y: 91.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &834434216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834434214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 834434217}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 989049251}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: ButtonRecords
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &834434217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834434214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &834434218
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834434214}
+  m_CullTransparentMesh: 0
+--- !u!1 &989049246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989049247}
+  - component: {fileID: 989049250}
+  - component: {fileID: 989049249}
+  - component: {fileID: 989049248}
+  - component: {fileID: 989049251}
+  - component: {fileID: 989049252}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &989049247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1091129711}
+  - {fileID: 1671419781}
+  - {fileID: 185636871}
+  - {fileID: 224262900}
+  - {fileID: 1593129836}
+  - {fileID: 834434215}
+  - {fileID: 557572707}
+  m_Father: {fileID: 329637201}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &989049248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &989049249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &989049250
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 5
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &989049251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6f4bb070bc18447b7e57c1037f11d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 0}
+  countryJsonText: {fileID: 1091129709}
+--- !u!114 &989049252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989049246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0afbb368ff7ed47a3bbfee4e057492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1069928169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069928170}
+  - component: {fileID: 1069928172}
+  - component: {fileID: 1069928171}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &1069928170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069928169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000798, y: 1.0000798, z: 1.0000798}
+  m_Children: []
+  m_Father: {fileID: 834434215}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1069928171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069928169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0420\u0435\u043A\u043E\u0440\u0434\u044B"
+--- !u!222 &1069928172
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069928169}
+  m_CullTransparentMesh: 0
+--- !u!1 &1091129708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091129711}
+  - component: {fileID: 1091129710}
+  - component: {fileID: 1091129709}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!114 &1091129709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091129708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "[\r\n    {\r\n        \"country_id\": 406,\r\n        \"name\": \"\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u044F\",\r\n       
+    \"capital\": \"\u041A\u0430\u043D\u0431\u0435\u0440\u0440\u0430\",\r\n       
+    \"population\": \"24 238 610\",\r\n        \"square\": \"7 686 850\",\r\n       
+    \"currency\": \"\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (AUD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 263,\r\n        \"name\": \"\u0410\u0432\u0441\u0442\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u0412\u0435\u043D\u0430\",\r\n        \"population\": \"8 741
+    753\",\r\n        \"square\": \"83 858\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    307,\r\n        \"name\": \"\u0410\u0437\u0435\u0440\u0430\u0431\u0430\u0439\u0434\u0436\u0430\u043D\",\r\n       
+    \"capital\": \"\u0411\u0430\u043A\u0443\",\r\n        \"population\": \"9 705
+    600\",\r\n        \"square\": \"86 600\",\r\n        \"currency\": \"\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043D\u0441\u043A\u0438\u0439
+    \u043C\u0430\u043D\u0430\u0442 (AZN)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 264,\r\n        \"name\": \"\u0410\u043B\u0431\u0430\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0422\u0438\u0440\u0430\u043D\u0430\",\r\n        \"population\":
+    \"2 866 026\",\r\n        \"square\": \"28 748\",\r\n        \"currency\": \"\u041B\u0435\u043A
+    (ALL)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    355,\r\n        \"name\": \"\u0410\u043B\u0436\u0438\u0440\",\r\n        \"capital\":
+    \"\u0410\u043B\u0436\u0438\u0440\",\r\n        \"population\": \"39 813 722\",\r\n       
+    \"square\": \"2 381 740\",\r\n        \"currency\": \"\u0410\u043B\u0436\u0438\u0440\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (DZD)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 356,\r\n        \"name\": \"\u0410\u043D\u0433\u043E\u043B\u0430\",\r\n       
+    \"capital\": \"\u041B\u0443\u0430\u043D\u0434\u0430\",\r\n        \"population\":
+    \"25 831 000\",\r\n        \"square\": \"1 246 700\",\r\n        \"currency\":
+    \"\u041A\u0432\u0430\u043D\u0437\u0430 (AOA)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 265,\r\n        \"name\": \"\u0410\u043D\u0434\u043E\u0440\u0440\u0430\",\r\n       
+    \"capital\": \"\u0410\u043D\u0434\u043E\u0440\u0440\u0430-\u043B\u0430-\u0412\u0435\u043B\u044C\u044F\",\r\n       
+    \"population\": \"78 014\",\r\n        \"square\": \"468\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 423,\r\n        \"name\": \"\u0410\u043D\u0442\u0438\u0433\u0443\u0430
+    \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430\",\r\n        \"capital\":
+    \"\u0421\u0435\u043D\u0442-\u0414\u0436\u043E\u043D\u0441\",\r\n        \"population\":
+    \"93 581\",\r\n        \"square\": \"442\",\r\n        \"currency\": \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u043E-\u043A\u0430\u0440\u0438\u0431\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (XCD)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 445,\r\n        \"name\": \"\u0410\u0440\u0433\u0435\u043D\u0442\u0438\u043D\u0430\",\r\n       
+    \"capital\": \"\u0411\u0443\u044D\u043D\u043E\u0441-\u0410\u0439\u0440\u0435\u0441\",\r\n       
+    \"population\": \"43 847 000\",\r\n        \"square\": \"2 766 890\",\r\n       
+    \"currency\": \"\u0410\u0440\u0433\u0435\u043D\u0442\u0438\u043D\u0441\u043A\u043E\u0435
+    \u043F\u0435\u0441\u043E (ARS)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 308,\r\n        \"name\": \"\u0410\u0440\u043C\u0435\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0415\u0440\u0435\u0432\u0430\u043D\",\r\n        \"population\":
+    \"2 995 100\",\r\n        \"square\": \"29 741\",\r\n        \"currency\": \"\u0410\u0440\u043C\u044F\u043D\u0441\u043A\u0438\u0439
+    \u0434\u0440\u0430\u043C (AMD)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 309,\r\n        \"name\": \"\u0410\u0444\u0433\u0430\u043D\u0438\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u041A\u0430\u0431\u0443\u043B\",\r\n        \"population\": \"29
+    822 848\",\r\n        \"square\": \"647 500\",\r\n        \"currency\": \"\u0410\u0444\u0433\u0430\u043D\u0438
+    (AFN)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    424,\r\n        \"name\": \"\u0411\u0430\u0433\u0430\u043C\u0441\u043A\u0438\u0435
+    \u043E\u0441\u0442\u0440\u043E\u0432\u0430\",\r\n        \"capital\": \"\u041D\u0430\u0441\u0441\u0430\u0443\",\r\n       
+    \"population\": \"393 000\",\r\n        \"square\": \"13 940\",\r\n        \"currency\":
+    \"\u0411\u0430\u0433\u0430\u043C\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (BSD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    310,\r\n        \"name\": \"\u0411\u0430\u043D\u0433\u043B\u0430\u0434\u0435\u0448\",\r\n       
+    \"capital\": \"\u0414\u0430\u043A\u043A\u0430\",\r\n        \"population\": \"160
+    221 000\",\r\n        \"square\": \"144 000\",\r\n        \"currency\": \"\u0411\u0430\u043D\u0433\u043B\u0430\u0434\u0435\u0448\u0441\u043A\u0430\u044F
+    \u0442\u0430\u043A\u0430 (BDT)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 425,\r\n        \"name\": \"\u0411\u0430\u0440\u0431\u0430\u0434\u043E\u0441\",\r\n       
+    \"capital\": \"\u0411\u0440\u0438\u0434\u0436\u0442\u0430\u0443\u043D\",\r\n       
+    \"population\": \"291 495\",\r\n        \"square\": \"430\",\r\n        \"currency\":
+    \"\u0411\u0430\u0440\u0431\u0430\u0434\u043E\u0441\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (BBD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    311,\r\n        \"name\": \"\u0411\u0430\u0445\u0440\u0435\u0439\u043D\",\r\n       
+    \"capital\": \"\u041C\u0430\u043D\u0430\u043C\u0430\",\r\n        \"population\":
+    \"1 397 000\",\r\n        \"square\": \"701\",\r\n        \"currency\": \"\u0411\u0430\u0445\u0440\u0435\u0439\u043D\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (BHD)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 426,\r\n        \"name\": \"\u0411\u0435\u043B\u0438\u0437\",\r\n       
+    \"capital\": \"\u0411\u0435\u043B\u044C\u043C\u043E\u043F\u0430\u043D\",\r\n       
+    \"population\": \"377 968\",\r\n        \"square\": \"22 966\",\r\n        \"currency\":
+    \"\u0411\u0435\u043B\u0438\u0437\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (BZD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    266,\r\n        \"name\": \"\u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0441\u0438\u044F\",\r\n       
+    \"capital\": \"\u041C\u0438\u043D\u0441\u043A\",\r\n        \"population\": \"9
+    498 400\",\r\n        \"square\": \"207 595\",\r\n        \"currency\": \"\u0411\u0435\u043B\u043E\u0440\u0443\u0441\u0441\u043A\u0438\u0439
+    \u0440\u0443\u0431\u043B\u044C (BYN)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 267,\r\n        \"name\": \"\u0411\u0435\u043B\u044C\u0433\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0440\u044E\u0441\u0441\u0435\u043B\u044C\",\r\n       
+    \"population\": \"11 250 585\",\r\n        \"square\": \"30 528\",\r\n       
+    \"currency\": \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 357,\r\n        \"name\": \"\u0411\u0435\u043D\u0438\u043D\",\r\n       
+    \"capital\": \"\u041F\u043E\u0440\u0442\u043E-\u041D\u043E\u0432\u043E\",\r\n       
+    \"population\": \"11 167 000\",\r\n        \"square\": \"112 620\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E
+    (XOF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    268,\r\n        \"name\": \"\u0411\u043E\u043B\u0433\u0430\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u0421\u043E\u0444\u0438\u044F\",\r\n        \"population\": \"7
+    153 784\",\r\n        \"square\": \"110 910\",\r\n        \"currency\": \"\u0411\u043E\u043B\u0433\u0430\u0440\u0441\u043A\u0438\u0439
+    \u043B\u0435\u0432 (BGN)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 446,\r\n        \"name\": \"\u0411\u043E\u043B\u0438\u0432\u0438\u044F\",\r\n       
+    \"capital\": \"\u0421\u0443\u043A\u0440\u0435\",\r\n        \"population\": \"10
+    985 059\",\r\n        \"square\": \"1 098 580\",\r\n        \"currency\": \"\u0411\u043E\u043B\u0438\u0432\u0438\u0430\u043D\u043E
+    (BOB)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    269,\r\n        \"name\": \"\u0411\u043E\u0441\u043D\u0438\u044F \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430\",\r\n       
+    \"capital\": \"\u0421\u0430\u0440\u0430\u0435\u0432\u043E\",\r\n        \"population\":
+    \"3 802 000\",\r\n        \"square\": \"51 129\",\r\n        \"currency\": \"\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0438\u0440\u0443\u0435\u043C\u0430\u044F
+    \u043C\u0430\u0440\u043A\u0430 (BAM)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 358,\r\n        \"name\": \"\u0411\u043E\u0442\u0441\u0432\u0430\u043D\u0430\",\r\n       
+    \"capital\": \"\u0413\u0430\u0431\u043E\u0440\u043E\u043D\u0435\",\r\n       
+    \"population\": \"2 209 208\",\r\n        \"square\": \"600 370\",\r\n       
+    \"currency\": \"\u041F\u0443\u043B\u0430 (BWP)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 447,\r\n        \"name\": \"\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u0430\",\r\n       
+    \"population\": \"206 081 432\",\r\n        \"square\": \"8 511 965\",\r\n       
+    \"currency\": \"\u0411\u0440\u0430\u0437\u0438\u043B\u044C\u0441\u043A\u0438\u0439
+    \u0440\u0435\u0430\u043B (BRL)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 312,\r\n        \"name\": \"\u0411\u0440\u0443\u043D\u0435\u0439\",\r\n       
+    \"capital\": \"\u0411\u0430\u043D\u0434\u0430\u0440-\u0421\u0435\u0440\u0438-\u0411\u0435\u0433\u0430\u0432\u0430\u043D\",\r\n       
+    \"population\": \"436 620\",\r\n        \"square\": \"5 770\",\r\n        \"currency\":
+    \"\u0411\u0440\u0443\u043D\u0435\u0439\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (\u0440\u0438\u043D\u0433\u0433\u0438\u0442) (BND)\",\r\n        \"mainland\":
+    \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 359,\r\n        \"name\":
+    \"\u0411\u0443\u0440\u043A\u0438\u043D\u0430-\u0424\u0430\u0441\u043E\",\r\n       
+    \"capital\": \"\u0423\u0430\u0433\u0430\u0434\u0443\u0433\u0443\",\r\n       
+    \"population\": \"19 034 397\",\r\n        \"square\": \"274 200\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E
+    (XOF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    360,\r\n        \"name\": \"\u0411\u0443\u0440\u0443\u043D\u0434\u0438\",\r\n       
+    \"capital\": \"\u0413\u0438\u0442\u0435\u0433\u0430\",\r\n        \"population\":
+    \"11 099 298\",\r\n        \"square\": \"27 830\",\r\n        \"currency\": \"\u0411\u0443\u0440\u0443\u043D\u0434\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0444\u0440\u0430\u043D\u043A (BIF)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 313,\r\n        \"name\": \"\u0411\u0443\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0422\u0445\u0438\u043C\u043F\u0445\u0443\",\r\n        \"population\":
+    \"784 000\",\r\n        \"square\": \"47 000\",\r\n        \"currency\": \"\u041D\u0433\u0443\u043B\u0442\u0440\u0443\u043C
+    (BTN)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    407,\r\n        \"name\": \"\u0412\u0430\u043D\u0443\u0430\u0442\u0443\",\r\n       
+    \"capital\": \"\u041F\u043E\u0440\u0442-\u0412\u0438\u043B\u0430\",\r\n       
+    \"population\": \"289 700\",\r\n        \"square\": \"12 200\",\r\n        \"currency\":
+    \"\u0412\u0430\u0442\u0443 (VUV)\",\r\n        \"mainland\": \"au\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 270,\r\n        \"name\": \"\u0412\u0430\u0442\u0438\u043A\u0430\u043D\",\r\n       
+    \"capital\": \"\u0412\u0430\u0442\u0438\u043A\u0430\u043D\",\r\n        \"population\":
+    \"842\",\r\n        \"square\": \"0.44\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    271,\r\n        \"name\": \"\u0412\u0435\u043B\u0438\u043A\u043E\u0431\u0440\u0438\u0442\u0430\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u041B\u043E\u043D\u0434\u043E\u043D\",\r\n        \"population\":
+    \"65 341 183\",\r\n        \"square\": \"244 820\",\r\n        \"currency\":
+    \"\u0424\u0443\u043D\u0442 \u0441\u0442\u0435\u0440\u043B\u0438\u043D\u0433\u043E\u0432
+    (GBP)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    272,\r\n        \"name\": \"\u0412\u0435\u043D\u0433\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0443\u0434\u0430\u043F\u0435\u0448\u0442\",\r\n       
+    \"population\": \"9 830 485\",\r\n        \"square\": \"93 030\",\r\n       
+    \"currency\": \"\u0424\u043E\u0440\u0438\u043D\u0442 (HUF)\",\r\n        \"mainland\":
+    \"eu\"\r\n    },\r\n    {\r\n        \"country_id\": 448,\r\n        \"name\":
+    \"\u0412\u0435\u043D\u0435\u0441\u0443\u044D\u043B\u0430\",\r\n        \"capital\":
+    \"\u041A\u0430\u0440\u0430\u043A\u0430\u0441\",\r\n        \"population\": \"31
+    028 637\",\r\n        \"square\": \"912 050\",\r\n        \"currency\": \"\u0411\u043E\u043B\u0438\u0432\u0430\u0440
+    (VEB)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    314,\r\n        \"name\": \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u044B\u0439
+    \u0422\u0438\u043C\u043E\u0440\",\r\n        \"capital\": \"\u0414\u0438\u043B\u0438\",\r\n       
+    \"population\": \"1 167 242\",\r\n        \"square\": \"14 874\",\r\n       
+    \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440 \u0421\u0428\u0410 (USD)\",\r\n       
+    \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 315,\r\n       
+    \"name\": \"\u0412\u044C\u0435\u0442\u043D\u0430\u043C\",\r\n        \"capital\":
+    \"\u0425\u0430\u043D\u043E\u0439\",\r\n        \"population\": \"91 713 300\",\r\n       
+    \"square\": \"329 560\",\r\n        \"currency\": \"\u0414\u043E\u043D\u0433
+    (VND)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    361,\r\n        \"name\": \"\u0413\u0430\u0431\u043E\u043D\",\r\n        \"capital\":
+    \"\u041B\u0438\u0431\u0440\u0435\u0432\u0438\u043B\u044C\",\r\n        \"population\":
+    \"1 811 079\",\r\n        \"square\": \"267 667\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0415\u0410\u0421 (XAF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 427,\r\n        \"name\":
+    \"\u0413\u0430\u0438\u0442\u0438\",\r\n        \"capital\": \"\u041F\u043E\u0440\u0442-\u043E-\u041F\u0440\u0435\u043D\u0441\",\r\n       
+    \"population\": \"10 911 819\",\r\n        \"square\": \"27 750\",\r\n       
+    \"currency\": \"\u0413\u0443\u0440\u0434 (HTG)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 449,\r\n        \"name\": \"\u0413\u0430\u0439\u0430\u043D\u0430\",\r\n       
+    \"capital\": \"\u0414\u0436\u043E\u0440\u0434\u0436\u0442\u0430\u0443\u043D\",\r\n       
+    \"population\": \"741 962\",\r\n        \"square\": \"214 970\",\r\n        \"currency\":
+    \"\u0413\u0430\u0439\u0430\u043D\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (GYD)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    362,\r\n        \"name\": \"\u0413\u0430\u043C\u0431\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0430\u043D\u0436\u0443\u043B\",\r\n        \"population\":
+    \"2 025 527\",\r\n        \"square\": \"11 300\",\r\n        \"currency\": \"\u0414\u0430\u043B\u0430\u0441\u0438
+    (GMD)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    363,\r\n        \"name\": \"\u0413\u0430\u043D\u0430\",\r\n        \"capital\":
+    \"\u0410\u043A\u043A\u0440\u0430\",\r\n        \"population\": \"28 308 301\",\r\n       
+    \"square\": \"238 540\",\r\n        \"currency\": \"\u0421\u0435\u0434\u0438
+    (GHC)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    428,\r\n        \"name\": \"\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430\",\r\n       
+    \"capital\": \"\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430\",\r\n       
+    \"population\": \"16 555 556\",\r\n        \"square\": \"108 890\",\r\n       
+    \"currency\": \"\u041A\u0435\u0442\u0441\u0430\u043B\u044C (GTQ)\",\r\n       
+    \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\": 364,\r\n       
+    \"name\": \"\u0413\u0432\u0438\u043D\u0435\u044F\",\r\n        \"capital\": \"\u041A\u043E\u043D\u0430\u043A\u0440\u0438\",\r\n       
+    \"population\": \"10 628 972\",\r\n        \"square\": \"245 857\",\r\n       
+    \"currency\": \"\u0413\u0432\u0438\u043D\u0435\u0439\u0441\u043A\u0438\u0439
+    \u0444\u0440\u0430\u043D\u043A (GNF)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 365,\r\n        \"name\": \"\u0413\u0432\u0438\u043D\u0435\u044F-\u0411\u0438\u0441\u0430\u0443\",\r\n       
+    \"capital\": \"\u0411\u0438\u0441\u0430\u0443\",\r\n        \"population\": \"1
+    547 754\",\r\n        \"square\": \"36 120\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E (XOF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 273,\r\n        \"name\":
+    \"\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F\",\r\n        \"capital\":
+    \"\u0411\u0435\u0440\u043B\u0438\u043D\",\r\n        \"population\": \"82 175
+    684\",\r\n        \"square\": \"357 021\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    429,\r\n        \"name\": \"\u0413\u043E\u043D\u0434\u0443\u0440\u0430\u0441\",\r\n       
+    \"capital\": \"\u0422\u0435\u0433\u0443\u0441\u0438\u0433\u0430\u043B\u044C\u043F\u0430\",\r\n       
+    \"population\": \"8 721 014\",\r\n        \"square\": \"112 090\",\r\n       
+    \"currency\": \"\u041B\u0435\u043C\u043F\u0438\u0440\u0430 (HNL)\",\r\n       
+    \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\": 430,\r\n       
+    \"name\": \"\u0413\u0440\u0435\u043D\u0430\u0434\u0430\",\r\n        \"capital\":
+    \"\u0421\u0435\u043D\u0442-\u0414\u0436\u043E\u0440\u0434\u0436\u0435\u0441\",\r\n       
+    \"population\": \"110 566\",\r\n        \"square\": \"340\",\r\n        \"currency\":
+    \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u043E-\u043A\u0430\u0440\u0438\u0431\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (XCD)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 274,\r\n        \"name\": \"\u0413\u0440\u0435\u0446\u0438\u044F\",\r\n       
+    \"capital\": \"\u0410\u0444\u0438\u043D\u044B\",\r\n        \"population\": \"10
+    793 526\",\r\n        \"square\": \"131 940\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    316,\r\n        \"name\": \"\u0413\u0440\u0443\u0437\u0438\u044F\",\r\n       
+    \"capital\": \"\u0422\u0431\u0438\u043B\u0438\u0441\u0438\",\r\n        \"population\":
+    \"3 720 400\",\r\n        \"square\": \"69 700\",\r\n        \"currency\": \"\u041B\u0430\u0440\u0438
+    (GEL)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    275,\r\n        \"name\": \"\u0414\u0430\u043D\u0438\u044F\",\r\n        \"capital\":
+    \"\u041A\u043E\u043F\u0435\u043D\u0433\u0430\u0433\u0435\u043D\",\r\n       
+    \"population\": \"5 707 251 \",\r\n        \"square\": \"43 094\",\r\n       
+    \"currency\": \"\u0414\u0430\u0442\u0441\u043A\u0430\u044F \u043A\u0440\u043E\u043D\u0430
+    (DKK)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    366,\r\n        \"name\": \"\u0414\u0435\u043C\u043E\u043A\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u043D\u0433\u043E\",\r\n       
+    \"capital\": \"\u041A\u0438\u043D\u0448\u0430\u0441\u0430\",\r\n        \"population\":
+    \"85 026 000\",\r\n        \"square\": \"2 345 410\",\r\n        \"currency\":
+    \"\u041A\u043E\u043D\u0433\u043E\u043B\u0435\u0437\u0441\u043A\u0438\u0439 \u0444\u0440\u0430\u043D\u043A
+    (CDF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    367,\r\n        \"name\": \"\u0414\u0436\u0438\u0431\u0443\u0442\u0438\",\r\n       
+    \"capital\": \"\u0414\u0436\u0438\u0431\u0443\u0442\u0438\",\r\n        \"population\":
+    \" 890 179\",\r\n        \"square\": \"22 000\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u0414\u0436\u0438\u0431\u0443\u0442\u0438 (DJF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 431,\r\n        \"name\":
+    \"\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\",\r\n        \"capital\":
+    \"\u0420\u043E\u0437\u043E\",\r\n        \"population\": \"69 393\",\r\n       
+    \"square\": \"754\",\r\n        \"currency\": \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u043E-\u043A\u0430\u0440\u0438\u0431\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (XCD)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 432,\r\n        \"name\": \"\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\u043D\u0430\",\r\n       
+    \"capital\": \"\u0421\u0430\u043D\u0442\u043E-\u0414\u043E\u043C\u0438\u043D\u0433\u043E\",\r\n       
+    \"population\": \"10 075 045\",\r\n        \"square\": \"48 730\",\r\n       
+    \"currency\": \"\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\u043D\u0441\u043A\u043E\u0435
+    \u043F\u0435\u0441\u043E (DOP)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 368,\r\n        \"name\": \"\u0415\u0433\u0438\u043F\u0435\u0442\",\r\n       
+    \"capital\": \"\u041A\u0430\u0438\u0440\",\r\n        \"population\": \"91 701
+    723\",\r\n        \"square\": \"1 001 450\",\r\n        \"currency\": \"\u0415\u0433\u0438\u043F\u0435\u0442\u0441\u043A\u0438\u0439
+    \u0444\u0443\u043D\u0442 (EGP)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 369,\r\n        \"name\": \"\u0417\u0430\u043C\u0431\u0438\u044F\",\r\n       
+    \"capital\": \"\u041B\u0443\u0441\u0430\u043A\u0430\",\r\n        \"population\":
+    \"16 717 000\",\r\n        \"square\": \"752 614\",\r\n        \"currency\":
+    \"\u041A\u0432\u0430\u0447\u0430 \u0437\u0430\u043C\u0431\u0438\u0439\u0441\u043A\u0430\u044F
+    (ZMK)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    370,\r\n        \"name\": \"\u0417\u0438\u043C\u0431\u0430\u0431\u0432\u0435\",\r\n       
+    \"capital\": \"\u0425\u0430\u0440\u0430\u0440\u0435\",\r\n        \"population\":
+    \"15 967 000\",\r\n        \"square\": \"390 580\",\r\n        \"currency\":
+    \"\u0414\u043E\u043B\u043B\u0430\u0440 \u0421\u0428\u0410 (USD)\",\r\n       
+    \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 317,\r\n       
+    \"name\": \"\u0418\u0437\u0440\u0430\u0438\u043B\u044C\",\r\n        \"capital\":
+    \"\u0418\u0435\u0440\u0443\u0441\u0430\u043B\u0438\u043C\",\r\n        \"population\":
+    \"8 585 000\",\r\n        \"square\": \"22 072\",\r\n        \"currency\": \"\u041D\u043E\u0432\u044B\u0439
+    \u0438\u0437\u0440\u0430\u0438\u043B\u044C\u0441\u043A\u0438\u0439 \u0448\u0435\u043A\u0435\u043B\u044C
+    (ILS)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    318,\r\n        \"name\": \"\u0418\u043D\u0434\u0438\u044F\",\r\n        \"capital\":
+    \"\u041D\u044C\u044E-\u0414\u0435\u043B\u0438\",\r\n        \"population\": \"1
+    268 961 000\",\r\n        \"square\": \"3 287 590\",\r\n        \"currency\":
+    \"\u0418\u043D\u0434\u0438\u0439\u0441\u043A\u0430\u044F \u0440\u0443\u043F\u0438\u044F
+    (INR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    319,\r\n        \"name\": \"\u0418\u043D\u0434\u043E\u043D\u0435\u0437\u0438\u044F\",\r\n       
+    \"capital\": \"\u0414\u0436\u0430\u043A\u0430\u0440\u0442\u0430\",\r\n       
+    \"population\": \"255 461 700\",\r\n        \"square\": \"1 904 556\",\r\n       
+    \"currency\": \"\u0420\u0443\u043F\u0438\u044F (IDR)\",\r\n        \"mainland\":
+    \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 320,\r\n        \"name\":
+    \"\u0418\u043E\u0440\u0434\u0430\u043D\u0438\u044F\",\r\n        \"capital\":
+    \"\u0410\u043C\u043C\u0430\u043D\",\r\n        \"population\": \"9 813 095\",\r\n       
+    \"square\": \"89 400\",\r\n        \"currency\": \"\u0418\u043E\u0440\u0434\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (JOD)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 321,\r\n        \"name\": \"\u0418\u0440\u0430\u043A\",\r\n       
+    \"capital\": \"\u0411\u0430\u0433\u0434\u0430\u0434\",\r\n        \"population\":
+    \"37 883 543\",\r\n        \"square\": \"437 072\",\r\n        \"currency\":
+    \"\u0418\u0440\u0430\u043A\u0441\u043A\u0438\u0439 \u0434\u0438\u043D\u0430\u0440
+    (IQD)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    322,\r\n        \"name\": \"\u0418\u0440\u0430\u043D\",\r\n        \"capital\":
+    \"\u0422\u0435\u0433\u0435\u0440\u0430\u043D\",\r\n        \"population\": \"80
+    840 713\",\r\n        \"square\": \"1 648 000\",\r\n        \"currency\": \"\u0418\u0440\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0440\u0438\u0430\u043B (IRR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 276,\r\n        \"name\": \"\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F\",\r\n       
+    \"capital\": \"\u0414\u0443\u0431\u043B\u0438\u043D\",\r\n        \"population\":
+    \"4 658 530\",\r\n        \"square\": \"70 273\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    277,\r\n        \"name\": \"\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F\",\r\n       
+    \"capital\": \"\u0420\u0435\u0439\u043A\u044C\u044F\u0432\u0438\u043A\",\r\n       
+    \"population\": \"332 529\",\r\n        \"square\": \"103 000\",\r\n        \"currency\":
+    \"\u0418\u0441\u043B\u0430\u043D\u0434\u0441\u043A\u0430\u044F \u043A\u0440\u043E\u043D\u0430
+    (ISK)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    278,\r\n        \"name\": \"\u0418\u0441\u043F\u0430\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u041C\u0430\u0434\u0440\u0438\u0434\",\r\n        \"population\":
+    \"46 438 422\",\r\n        \"square\": \"497 304\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 279,\r\n        \"name\": \"\u0418\u0442\u0430\u043B\u0438\u044F\",\r\n       
+    \"capital\": \"\u0420\u0438\u043C\",\r\n        \"population\": \"60 665 551\",\r\n       
+    \"square\": \"301 340\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    323,\r\n        \"name\": \"\u0419\u0435\u043C\u0435\u043D\",\r\n        \"capital\":
+    \"\u0421\u0430\u043D\u0430\",\r\n        \"population\": \"27 478 000\",\r\n       
+    \"square\": \"527 970\",\r\n        \"currency\": \"\u0419\u0435\u043C\u0435\u043D\u0441\u043A\u0438\u0439
+    \u0440\u0438\u0430\u043B (YER)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 371,\r\n        \"name\": \"\u041A\u0430\u0431\u043E-\u0412\u0435\u0440\u0434\u0435\",\r\n       
+    \"capital\": \"\u041F\u0440\u0430\u044F\",\r\n        \"population\": \"538 535\",\r\n       
+    \"square\": \"4 033\",\r\n        \"currency\": \"\u042D\u0441\u043A\u0443\u0434\u043E
+    (CVE)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    324,\r\n        \"name\": \"\u041A\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u041D\u0443\u0440-\u0421\u0443\u043B\u0442\u0430\u043D\",\r\n       
+    \"population\": \"17 753 200\",\r\n        \"square\": \"2 724 900\",\r\n       
+    \"currency\": \"\u0422\u0435\u043D\u0433\u0435 (KZT)\",\r\n        \"mainland\":
+    \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 325,\r\n        \"name\":
+    \"\u041A\u0430\u043C\u0431\u043E\u0434\u0436\u0430\",\r\n        \"capital\":
+    \"\u041F\u043D\u043E\u043C\u043F\u0435\u043D\u044C\",\r\n        \"population\":
+    \"15 827 000\",\r\n        \"square\": \"181 040\",\r\n        \"currency\":
+    \"\u0420\u0438\u0435\u043B\u044C (KHR)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 372,\r\n        \"name\": \"\u041A\u0430\u043C\u0435\u0440\u0443\u043D\",\r\n       
+    \"capital\": \"\u042F\u0443\u043D\u0434\u0435\",\r\n        \"population\": \"23
+    924 000\",\r\n        \"square\": \"475 440\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0415\u0410\u0421 (XAF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 433,\r\n        \"name\":
+    \"\u041A\u0430\u043D\u0430\u0434\u0430\",\r\n        \"capital\": \"\u041E\u0442\u0442\u0430\u0432\u0430\",\r\n       
+    \"population\": \"36 286 425\",\r\n        \"square\": \"9 976 139\",\r\n       
+    \"currency\": \"\u041A\u0430\u043D\u0430\u0434\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (CAD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    326,\r\n        \"name\": \"\u041A\u0430\u0442\u0430\u0440\",\r\n        \"capital\":
+    \"\u0414\u043E\u0445\u0430\",\r\n        \"population\": \"2 553 393\",\r\n       
+    \"square\": \"11 437\",\r\n        \"currency\": \"\u041A\u0430\u0442\u0430\u0440\u0441\u043A\u0438\u0439
+    \u0440\u0438\u0430\u043B (QAR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 373,\r\n        \"name\": \"\u041A\u0435\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u041D\u0430\u0439\u0440\u043E\u0431\u0438\",\r\n        \"population\":
+    \"44 156 577\",\r\n        \"square\": \"582 650\",\r\n        \"currency\":
+    \"\u041A\u0435\u043D\u0438\u0439\u0441\u043A\u0438\u0439 \u0448\u0438\u043B\u043B\u0438\u043D\u0433
+    (KES)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    327,\r\n        \"name\": \"\u041A\u0438\u043F\u0440\",\r\n        \"capital\":
+    \"\u041D\u0438\u043A\u043E\u0441\u0438\u044F\",\r\n        \"population\": \"848
+    319\",\r\n        \"square\": \"9 250\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    408,\r\n        \"name\": \"\u041A\u0438\u0440\u0438\u0431\u0430\u0442\u0438\",\r\n       
+    \"capital\": \"\u042E\u0436\u043D\u0430\u044F \u0422\u0430\u0440\u0430\u0432\u0430\",\r\n       
+    \"population\": \"109 693\",\r\n        \"square\": \"717\",\r\n        \"currency\":
+    \"\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (AUD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 328,\r\n        \"name\": \"\u041A\u0438\u0442\u0430\u0439\",\r\n       
+    \"capital\": \"\u041F\u0435\u043A\u0438\u043D\",\r\n        \"population\": \"1
+    410 549 741\",\r\n        \"square\": \"9 640 821\",\r\n        \"currency\":
+    \"\u042E\u0430\u043D\u044C (CNY)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 450,\r\n        \"name\": \"\u041A\u043E\u043B\u0443\u043C\u0431\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u043E\u0433\u043E\u0442\u0430\",\r\n        \"population\":
+    \"48 892 070\",\r\n        \"square\": \"1 138 910\",\r\n        \"currency\":
+    \"\u041A\u043E\u043B\u0443\u043C\u0431\u0438\u0439\u0441\u043A\u043E\u0435 \u043F\u0435\u0441\u043E
+    (COP)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    434,\r\n        \"name\": \"\u041A\u043E\u0441\u0442\u0430-\u0420\u0438\u043A\u0430\",\r\n       
+    \"capital\": \"\u0421\u0430\u043D-\u0425\u043E\u0441\u0435\",\r\n        \"population\":
+    \"4 890 379\",\r\n        \"square\": \"51 100\",\r\n        \"currency\": \"\u041A\u043E\u0441\u0442\u0430\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0438\u0439
+    \u043A\u043E\u043B\u043E\u043D (CRC)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 374,\r\n        \"name\": \"\u041A\u043E\u0442
+    \u0434 \u0418\u0432\u0443\u0430\u0440\",\r\n        \"capital\": \"\u042F\u043C\u0443\u0441\u0443\u043A\u0440\u043E\",\r\n       
+    \"population\": \"23 254 000\",\r\n        \"square\": \"322 460\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E
+    (XOF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    435,\r\n        \"name\": \"\u041A\u0443\u0431\u0430\",\r\n        \"capital\":
+    \"\u0413\u0430\u0432\u0430\u043D\u0430\",\r\n        \"population\": \"11 236
+    348\",\r\n        \"square\": \"110 860\",\r\n        \"currency\": \"\u041A\u0443\u0431\u0438\u043D\u0441\u043A\u043E\u0435
+    \u043F\u0435\u0441\u043E (CUP)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 329,\r\n        \"name\": \"\u041A\u0443\u0432\u0435\u0439\u0442\",\r\n       
+    \"capital\": \"\u042D\u043B\u044C-\u041A\u0443\u0432\u0435\u0439\u0442\",\r\n       
+    \"population\": \"4 330 308\",\r\n        \"square\": \"17 820\",\r\n       
+    \"currency\": \"\u041A\u0443\u0432\u0435\u0439\u0442\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (KWD)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 330,\r\n        \"name\": \"\u041A\u044B\u0440\u0433\u044B\u0437\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0411\u0438\u0448\u043A\u0435\u043A\",\r\n        \"population\":
+    \"6 019 500\",\r\n        \"square\": \"198 500\",\r\n        \"currency\": \"\u0421\u043E\u043C
+    (KGS)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    331,\r\n        \"name\": \"\u041B\u0430\u043E\u0441\",\r\n        \"capital\":
+    \"\u0412\u044C\u0435\u043D\u0442\u044C\u044F\u043D\",\r\n        \"population\":
+    \"6 492 400\",\r\n        \"square\": \"236 800\",\r\n        \"currency\": \"\u041A\u0438\u043F
+    (LAK)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    280,\r\n        \"name\": \"\u041B\u0430\u0442\u0432\u0438\u044F\",\r\n       
+    \"capital\": \"\u0420\u0438\u0433\u0430\",\r\n        \"population\": \"1 968
+    957\",\r\n        \"square\": \"64 589\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    375,\r\n        \"name\": \"\u041B\u0435\u0441\u043E\u0442\u043E\",\r\n       
+    \"capital\": \"\u041C\u0430\u0441\u0435\u0440\u0443\",\r\n        \"population\":
+    \"2 160 000\",\r\n        \"square\": \"30 355\",\r\n        \"currency\": \"\u041B\u043E\u0442\u0438
+    (LSL)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    376,\r\n        \"name\": \"\u041B\u0438\u0431\u0435\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u041C\u043E\u043D\u0440\u043E\u0432\u0438\u044F\",\r\n       
+    \"population\": \"4 001 855\",\r\n        \"square\": \"111 370\",\r\n       
+    \"currency\": \"\u041B\u0438\u0431\u0435\u0440\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (LRD)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 332,\r\n        \"name\": \"\u041B\u0438\u0432\u0430\u043D\",\r\n       
+    \"capital\": \"\u0411\u0435\u0439\u0440\u0443\u0442\",\r\n        \"population\":
+    \"5 988 000\",\r\n        \"square\": \"10 452\",\r\n        \"currency\": \"\u041B\u0438\u0432\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0444\u0443\u043D\u0442 (LBP)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 377,\r\n        \"name\": \"\u041B\u0438\u0432\u0438\u044F\",\r\n       
+    \"capital\": \"\u0422\u0440\u0438\u043F\u043E\u043B\u0438\",\r\n        \"population\":
+    \"6 244 174\",\r\n        \"square\": \"1 759 540\",\r\n        \"currency\":
+    \"\u041B\u0438\u0432\u0438\u0439\u0441\u043A\u0438\u0439 \u0434\u0438\u043D\u0430\u0440
+    (LYD)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    281,\r\n        \"name\": \"\u041B\u0438\u0442\u0432\u0430\",\r\n        \"capital\":
+    \"\u0412\u0438\u043B\u044C\u043D\u044E\u0441\",\r\n        \"population\": \"2
+    888 558\",\r\n        \"square\": \"65 200\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    282,\r\n        \"name\": \"\u041B\u0438\u0445\u0442\u0435\u043D\u0448\u0442\u0435\u0439\u043D\",\r\n       
+    \"capital\": \"\u0412\u0430\u0434\u0443\u0446\",\r\n        \"population\": \"37
+    662\",\r\n        \"square\": \"160\",\r\n        \"currency\": \"\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043A\u0438\u0439
+    \u0444\u0440\u0430\u043D\u043A (CHF)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 283,\r\n        \"name\": \"\u041B\u044E\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433\",\r\n       
+    \"capital\": \"\u041B\u044E\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433\",\r\n       
+    \"population\": \"576 249\",\r\n        \"square\": \"2 586\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 378,\r\n        \"name\": \"\u041C\u0430\u0432\u0440\u0438\u0442\u0430\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u041D\u0443\u0430\u043A\u0448\u043E\u0442\",\r\n        \"population\":
+    \"3 537 368\",\r\n        \"square\": \"1 030 700\",\r\n        \"currency\":
+    \"\u0423\u0433\u0438\u044F (MRO)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 379,\r\n        \"name\": \"\u041C\u0430\u0434\u0430\u0433\u0430\u0441\u043A\u0430\u0440\",\r\n       
+    \"capital\": \"\u0410\u043D\u0442\u0430\u043D\u0430\u043D\u0430\u0440\u0438\u0432\u0443\",\r\n       
+    \"population\": \"24 430 325\",\r\n        \"square\": \"587 040\",\r\n       
+    \"currency\": \"\u041C\u0430\u043B\u0430\u0433\u0430\u0441\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0430\u0440\u0438\u0430\u0440\u0438 (MGA)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 284,\r\n        \"name\": \"\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0421\u043A\u043E\u043F\u044C\u0435\",\r\n        \"population\":
+    \"2 071 278\",\r\n        \"square\": \"25 333\",\r\n        \"currency\": \"\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438\u0439
+    \u0434\u0435\u043D\u0430\u0440 (MKD)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 380,\r\n        \"name\": \"\u041C\u0430\u043B\u0430\u0432\u0438\",\r\n       
+    \"capital\": \"\u041B\u0438\u043B\u043E\u043D\u0433\u0432\u0435\",\r\n       
+    \"population\": \"17 377 468\",\r\n        \"square\": \"118 480\",\r\n       
+    \"currency\": \"\u041A\u0432\u0430\u0447\u0430 (MWK)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 333,\r\n        \"name\":
+    \"\u041C\u0430\u043B\u0430\u0439\u0437\u0438\u044F\",\r\n        \"capital\":
+    \"\u041A\u0443\u0430\u043B\u0430-\u041B\u0443\u043C\u043F\u0443\u0440\",\r\n       
+    \"population\": \"31 790 277\",\r\n        \"square\": \"329 750\",\r\n       
+    \"currency\": \"\u041C\u0430\u043B\u0430\u0439\u0437\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0440\u0438\u043D\u0433\u0433\u0438\u0442 (MYR)\",\r\n        \"mainland\":
+    \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 381,\r\n        \"name\":
+    \"\u041C\u0430\u043B\u0438\",\r\n        \"capital\": \"\u0411\u0430\u043C\u0430\u043A\u043E\",\r\n       
+    \"population\": \"18 135 000\",\r\n        \"square\": \"1 240 000\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E
+    (XOF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    334,\r\n        \"name\": \"\u041C\u0430\u043B\u044C\u0434\u0438\u0432\u044B\",\r\n       
+    \"capital\": \"\u041C\u0430\u043B\u0435\",\r\n        \"population\": \"402 071\",\r\n       
+    \"square\": \"300\",\r\n        \"currency\": \"\u0420\u0443\u0444\u0438\u044F
+    (MVR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    285,\r\n        \"name\": \"\u041C\u0430\u043B\u044C\u0442\u0430\",\r\n       
+    \"capital\": \"\u0412\u0430\u043B\u043B\u0435\u0442\u0442\u0430\",\r\n       
+    \"population\": \"434 403\",\r\n        \"square\": \"316\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 382,\r\n        \"name\": \"\u041C\u0430\u0440\u043E\u043A\u043A\u043E\",\r\n       
+    \"capital\": \"\u0420\u0430\u0431\u0430\u0442\",\r\n        \"population\": \"34
+    817 000\",\r\n        \"square\": \"446 550\",\r\n        \"currency\": \"\u041C\u0430\u0440\u043E\u043A\u043A\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0434\u0438\u0440\u0445\u0430\u043C (MAD)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 409,\r\n        \"name\": \"\u041C\u0430\u0440\u0448\u0430\u043B\u043B\u043E\u0432\u044B
+    \u043E\u0441\u0442\u0440\u043E\u0432\u0430\",\r\n        \"capital\": \"\u041C\u0430\u0434\u0436\u0443\u0440\u043E\",\r\n       
+    \"population\": \"55 717\",\r\n        \"square\": \"181\",\r\n        \"currency\":
+    \"\u0414\u043E\u043B\u043B\u0430\u0440 \u0421\u0428\u0410 (USD)\",\r\n       
+    \"mainland\": \"au\"\r\n    },\r\n    {\r\n        \"country_id\": 436,\r\n       
+    \"name\": \"\u041C\u0435\u043A\u0441\u0438\u043A\u0430\",\r\n        \"capital\":
+    \"\u041C\u0435\u0445\u0438\u043A\u043E\",\r\n        \"population\": \"122 273
+    473\",\r\n        \"square\": \"1 972 550\",\r\n        \"currency\": \"\u041C\u0435\u043A\u0441\u0438\u043A\u0430\u043D\u0441\u043A\u043E\u0435
+    \u043F\u0435\u0441\u043E (MXN)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 383,\r\n        \"name\": \"\u041C\u043E\u0437\u0430\u043C\u0431\u0438\u043A\",\r\n       
+    \"capital\": \"\u041C\u0430\u043F\u0443\u0442\u0443\",\r\n        \"population\":
+    \"26 423 623\",\r\n        \"square\": \"801 590\",\r\n        \"currency\":
+    \"\u041C\u0435\u0442\u0438\u043A\u0430\u043B (MZM)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 286,\r\n        \"name\":
+    \"\u041C\u043E\u043B\u0434\u0430\u0432\u0438\u044F\",\r\n        \"capital\":
+    \"\u041A\u0438\u0448\u0438\u043D\u0451\u0432\",\r\n        \"population\": \"3
+    553 056\",\r\n        \"square\": \"33 846\",\r\n        \"currency\": \"\u041C\u043E\u043B\u0434\u0430\u0432\u0441\u043A\u0438\u0439
+    \u043B\u0435\u0439 (MDL)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 287,\r\n        \"name\": \"\u041C\u043E\u043D\u0430\u043A\u043E\",\r\n       
+    \"capital\": \"\u041C\u043E\u043D\u0430\u043A\u043E\",\r\n        \"population\":
+    \"38 400\",\r\n        \"square\": \"2.02\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    335,\r\n        \"name\": \"\u041C\u043E\u043D\u0433\u043E\u043B\u0438\u044F\",\r\n       
+    \"capital\": \"\u0423\u043B\u0430\u043D-\u0411\u0430\u0442\u043E\u0440\",\r\n       
+    \"population\": \"3 081 677\",\r\n        \"square\": \"1 564 116\",\r\n       
+    \"currency\": \"\u0422\u0443\u0433\u0440\u0438\u043A (MNT)\",\r\n        \"mainland\":
+    \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 336,\r\n        \"name\":
+    \"\u041C\u044C\u044F\u043D\u043C\u0430\",\r\n        \"capital\": \"\u041D\u0435\u0439\u043F\u044C\u0438\u0434\u043E\",\r\n       
+    \"population\": \"51 419 420\",\r\n        \"square\": \"678 500\",\r\n       
+    \"currency\": \"\u041A\u044C\u044F\u0442 (MMK)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 384,\r\n        \"name\": \"\u041D\u0430\u043C\u0438\u0431\u0438\u044F\",\r\n       
+    \"capital\": \"\u0412\u0438\u043D\u0434\u0445\u0443\u043A\",\r\n        \"population\":
+    \"2 436 469\",\r\n        \"square\": \"825 418\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u041D\u0430\u043C\u0438\u0431\u0438\u0438 (NAD)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 410,\r\n        \"name\":
+    \"\u041D\u0430\u0443\u0440\u0443\",\r\n        \"capital\": \"[\u043D\u0435\u0442
+    \u0441\u0442\u043E\u043B\u0438\u0446\u044B]\",\r\n        \"population\": \"10
+    800\",\r\n        \"square\": \"21.30\",\r\n        \"currency\": \"\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (AUD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 337,\r\n        \"name\": \"\u041D\u0435\u043F\u0430\u043B\",\r\n       
+    \"capital\": \"\u041A\u0430\u0442\u043C\u0430\u043D\u0434\u0443\",\r\n       
+    \"population\": \"28 431 494\",\r\n        \"square\": \"140 800\",\r\n       
+    \"currency\": \"\u041D\u0435\u043F\u0430\u043B\u044C\u0441\u043A\u0430\u044F
+    \u0440\u0443\u043F\u0438\u044F (NPR)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 385,\r\n        \"name\": \"\u041D\u0438\u0433\u0435\u0440\",\r\n       
+    \"capital\": \"\u041D\u0438\u0430\u043C\u0435\u0439\",\r\n        \"population\":
+    \"20 715 000\",\r\n        \"square\": \"1 267 000\",\r\n        \"currency\":
+    \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E
+    (XOF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    386,\r\n        \"name\": \"\u041D\u0438\u0433\u0435\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u0410\u0431\u0443\u0434\u0436\u0430\",\r\n        \"population\":
+    \"186 988 000\",\r\n        \"square\": \"923 768\",\r\n        \"currency\":
+    \"\u041D\u0430\u0439\u0440\u0430 (NGN)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 288,\r\n        \"name\": \"\u041D\u0438\u0434\u0435\u0440\u043B\u0430\u043D\u0434\u044B\",\r\n       
+    \"capital\": \"\u0410\u043C\u0441\u0442\u0435\u0440\u0434\u0430\u043C\",\r\n       
+    \"population\": \"16 979 120\",\r\n        \"square\": \"41 526\",\r\n       
+    \"currency\": \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 437,\r\n        \"name\": \"\u041D\u0438\u043A\u0430\u0440\u0430\u0433\u0443\u0430\",\r\n       
+    \"capital\": \"\u041C\u0430\u043D\u0430\u0433\u0443\u0430\",\r\n        \"population\":
+    \"6 262 703\",\r\n        \"square\": \"129 494\",\r\n        \"currency\": \"\u0417\u043E\u043B\u043E\u0442\u0430\u044F
+    \u043A\u043E\u0440\u0434\u043E\u0431\u0430 (NIO)\",\r\n        \"mainland\":
+    \"na\"\r\n    },\r\n    {\r\n        \"country_id\": 411,\r\n        \"name\":
+    \"\u041D\u0438\u0443\u044D\",\r\n        \"capital\": \"\u0410\u043B\u043E\u0444\u0438\",\r\n       
+    \"population\": \"1 618\",\r\n        \"square\": \"261\",\r\n        \"currency\":
+    \"\u041D\u043E\u0432\u043E\u0437\u0435\u043B\u0430\u043D\u0434\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 412,\r\n        \"name\": \"\u041D\u043E\u0432\u0430\u044F
+    \u0417\u0435\u043B\u0430\u043D\u0434\u0438\u044F\",\r\n        \"capital\": \"\u0412\u0435\u043B\u043B\u0438\u043D\u0433\u0442\u043E\u043D\",\r\n       
+    \"population\": \"4 722 321\",\r\n        \"square\": \"268 680\",\r\n       
+    \"currency\": \"\u041D\u043E\u0432\u043E\u0437\u0435\u043B\u0430\u043D\u0434\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (NZD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 289,\r\n        \"name\": \"\u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F\",\r\n       
+    \"capital\": \"\u041E\u0441\u043B\u043E\",\r\n        \"population\": \"5 213
+    985\",\r\n        \"square\": \"385 186\",\r\n        \"currency\": \"\u041D\u043E\u0440\u0432\u0435\u0436\u0441\u043A\u0430\u044F
+    \u043A\u0440\u043E\u043D\u0430 (NOK)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 338,\r\n        \"name\": \"\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0435
+    \u0410\u0440\u0430\u0431\u0441\u043A\u0438\u0435 \u042D\u043C\u0438\u0440\u0430\u0442\u044B\",\r\n       
+    \"capital\": \"\u0410\u0431\u0443-\u0414\u0430\u0431\u0438\",\r\n        \"population\":
+    \"9 267 000\",\r\n        \"square\": \"82 880\",\r\n        \"currency\": \"\u0414\u0438\u0440\u0445\u0430\u043C
+    (AED)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    339,\r\n        \"name\": \"\u041E\u043C\u0430\u043D\",\r\n        \"capital\":
+    \"\u041C\u0430\u0441\u043A\u0430\u0442\",\r\n        \"population\": \"4 523
+    401\",\r\n        \"square\": \"309 500\",\r\n        \"currency\": \"\u041E\u043C\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0440\u0438\u0430\u043B (OMR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 413,\r\n        \"name\": \"\u041E\u0441\u0442\u0440\u043E\u0432\u0430
+    \u041A\u0443\u043A\u0430\",\r\n        \"capital\": \"\u0410\u043D\u0434\u043E\u0440\u0440\u0430-\u043B\u0430-\u0412\u0435\u043B\u044C\u044F\",\r\n       
+    \"population\": \"78 014\",\r\n        \"square\": \"468\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"au\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 340,\r\n        \"name\": \"\u041F\u0430\u043A\u0438\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0418\u0441\u043B\u0430\u043C\u0430\u0431\u0430\u0434\",\r\n       
+    \"population\": \"196 174 380\",\r\n        \"square\": \"881 913\",\r\n       
+    \"currency\": \"\u041F\u0430\u043A\u0438\u0441\u0442\u0430\u043D\u0441\u043A\u0430\u044F
+    \u0440\u0443\u043F\u0438\u044F (PKR)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 414,\r\n        \"name\": \"\u041F\u0430\u043B\u0430\u0443\",\r\n       
+    \"capital\": \"\u041D\u0433\u0435\u0440\u0443\u043B\u043C\u0443\u0434\",\r\n       
+    \"population\": \"17 661\",\r\n        \"square\": \"458\",\r\n        \"currency\":
+    \"\u0414\u043E\u043B\u043B\u0430\u0440 \u0421\u0428\u0410 (USD)\",\r\n       
+    \"mainland\": \"au\"\r\n    },\r\n    {\r\n        \"country_id\": 341,\r\n       
+    \"name\": \"\u041F\u0430\u043B\u0435\u0441\u0442\u0438\u043D\u0430\",\r\n       
+    \"capital\": \"\u0418\u0435\u0440\u0443\u0441\u0430\u043B\u0438\u043C (\u0420\u0430\u043C\u0430\u043B\u043B\u0430)\",\r\n       
+    \"population\": \"4 816 503\",\r\n        \"square\": \"6 020\",\r\n        \"currency\":
+    \"\u041D\u043E\u0432\u044B\u0439 \u0438\u0437\u0440\u0430\u0438\u043B\u044C\u0441\u043A\u0438\u0439
+    \u0448\u0435\u043A\u0435\u043B\u044C (ILS)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 438,\r\n        \"name\": \"\u041F\u0430\u043D\u0430\u043C\u0430\",\r\n       
+    \"capital\": \"\u041F\u0430\u043D\u0430\u043C\u0430\",\r\n        \"population\":
+    \"4 037 043\",\r\n        \"square\": \"78 200\",\r\n        \"currency\": \"\u0411\u0430\u043B\u044C\u0431\u043E\u0430
+    (PAB)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    415,\r\n        \"name\": \"\u041F\u0430\u043F\u0443\u0430-\u041D\u043E\u0432\u0430\u044F
+    \u0413\u0432\u0438\u043D\u0435\u044F\",\r\n        \"capital\": \"\u041F\u043E\u0440\u0442-\u041C\u043E\u0440\u0441\u0431\u0438\",\r\n       
+    \"population\": \"8 151 300\",\r\n        \"square\": \"463 840\",\r\n       
+    \"currency\": \"\u041A\u0438\u043D\u0430 (PGK)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 451,\r\n        \"name\": \"\u041F\u0430\u0440\u0430\u0433\u0432\u0430\u0439\",\r\n       
+    \"capital\": \"\u0410\u0441\u0443\u043D\u0441\u044C\u043E\u043D\",\r\n       
+    \"population\": \"6 854 536\",\r\n        \"square\": \"406 750\",\r\n       
+    \"currency\": \"\u0413\u0443\u0430\u0440\u0430\u043D\u0438 (PYG)\",\r\n       
+    \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\": 452,\r\n       
+    \"name\": \"\u041F\u0435\u0440\u0443\",\r\n        \"capital\": \"\u041B\u0438\u043C\u0430\",\r\n       
+    \"population\": \"31 488 625\",\r\n        \"square\": \"1 285 220\",\r\n       
+    \"currency\": \"\u041D\u043E\u0432\u044B\u0439 \u0441\u043E\u043B\u044C (PEN)\",\r\n       
+    \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\": 290,\r\n       
+    \"name\": \"\u041F\u043E\u043B\u044C\u0448\u0430\",\r\n        \"capital\": \"\u0412\u0430\u0440\u0448\u0430\u0432\u0430\",\r\n       
+    \"population\": \"37 967 209\",\r\n        \"square\": \"312 685\",\r\n       
+    \"currency\": \"\u0417\u043B\u043E\u0442\u044B\u0439 (PLN)\",\r\n        \"mainland\":
+    \"eu\"\r\n    },\r\n    {\r\n        \"country_id\": 291,\r\n        \"name\":
+    \"\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0438\u044F\",\r\n       
+    \"capital\": \"\u041B\u0438\u0441\u0441\u0430\u0431\u043E\u043D\",\r\n       
+    \"population\": \"10 341 330\",\r\n        \"square\": \"92 082\",\r\n       
+    \"currency\": \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 439,\r\n        \"name\": \"\u041F\u0443\u044D\u0440\u0442\u043E-\u0420\u0438\u043A\u043E\",\r\n       
+    \"capital\": \"\u0410\u043D\u0434\u043E\u0440\u0440\u0430-\u043B\u0430-\u0412\u0435\u043B\u044C\u044F\",\r\n       
+    \"population\": \"78 014\",\r\n        \"square\": \"468\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 387,\r\n        \"name\": \"\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430
+    \u041A\u043E\u043D\u0433\u043E\",\r\n        \"capital\": \"\u0411\u0440\u0430\u0437\u0437\u0430\u0432\u0438\u043B\u044C\",\r\n       
+    \"population\": \"4 741 000\",\r\n        \"square\": \"342 000\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0415\u0410\u0421
+    (XAF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    292,\r\n        \"name\": \"\u0420\u043E\u0441\u0441\u0438\u044F\",\r\n       
+    \"capital\": \"\u041C\u043E\u0441\u043A\u0432\u0430\",\r\n        \"population\":
+    \"146 267 288\",\r\n        \"square\": \"17 125 443\",\r\n        \"currency\":
+    \"\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0439 \u0440\u0443\u0431\u043B\u044C
+    (RUB)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    388,\r\n        \"name\": \"\u0420\u0443\u0430\u043D\u0434\u0430\",\r\n       
+    \"capital\": \"\u041A\u0438\u0433\u0430\u043B\u0438\",\r\n        \"population\":
+    \"11 533 446\",\r\n        \"square\": \"26 338\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u0420\u0443\u0430\u043D\u0434\u044B (RWF)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 293,\r\n        \"name\": \"\u0420\u0443\u043C\u044B\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0443\u0445\u0430\u0440\u0435\u0441\u0442\",\r\n       
+    \"population\": \"19 759 968\",\r\n        \"square\": \"237 500\",\r\n       
+    \"currency\": \"\u041B\u0435\u0439 (RON)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 440,\r\n        \"name\": \"\u0421\u0430\u043B\u044C\u0432\u0430\u0434\u043E\u0440\",\r\n       
+    \"capital\": \"\u0421\u0430\u043D-\u0421\u0430\u043B\u044C\u0432\u0430\u0434\u043E\u0440\",\r\n       
+    \"population\": \"\u0421\u0430\u043D-\u0421\u0430\u043B\u044C\u0432\u0430\u0434\u043E\u0440\",\r\n       
+    \"square\": \"21 040\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u0421\u0428\u0410 (USD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 416,\r\n        \"name\": \"\u0421\u0430\u043C\u043E\u0430\",\r\n       
+    \"capital\": \"\u0410\u043F\u0438\u0430\",\r\n        \"population\": \"194 899\",\r\n       
+    \"square\": \"2 860\",\r\n        \"currency\": \"\u0422\u0430\u043B\u0430 (WST)\",\r\n       
+    \"mainland\": \"au\"\r\n    },\r\n    {\r\n        \"country_id\": 294,\r\n       
+    \"name\": \"\u0421\u0430\u043D-\u041C\u0430\u0440\u0438\u043D\u043E\",\r\n       
+    \"capital\": \"\u0421\u0430\u043D-\u041C\u0430\u0440\u0438\u043D\u043E\",\r\n       
+    \"population\": \"33 005\",\r\n        \"square\": \"61.00\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 389,\r\n        \"name\": \"\u0421\u0430\u043D-\u0422\u043E\u043C\u0435
+    \u0438 \u041F\u0440\u0438\u043D\u0441\u0438\u043F\u0438\",\r\n        \"capital\":
+    \"\u0421\u0430\u043D-\u0422\u043E\u043C\u0435\",\r\n        \"population\": \"194
+    000\",\r\n        \"square\": \"1 001\",\r\n        \"currency\": \"\u0414\u043E\u0431\u0440\u0430
+    (STD)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    342,\r\n        \"name\": \"\u0421\u0430\u0443\u0434\u043E\u0432\u0441\u043A\u0430\u044F
+    \u0410\u0440\u0430\u0432\u0438\u044F\",\r\n        \"capital\": \"\u042D\u0440-\u0420\u0438\u044F\u0434\",\r\n       
+    \"population\": \"31 015 999\",\r\n        \"square\": \" 2 218 000\",\r\n       
+    \"currency\": \"\u0421\u0430\u0443\u0434\u043E\u0432\u0441\u043A\u0438\u0439
+    \u0440\u0438\u044F\u043B (SAR)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 343,\r\n        \"name\": \"\u0421\u0435\u0432\u0435\u0440\u043D\u0430\u044F
+    \u041A\u043E\u0440\u0435\u044F\",\r\n        \"capital\": \"\u041F\u0445\u0435\u043D\u044C\u044F\u043D\",\r\n       
+    \"population\": \"25 281 000\",\r\n        \"square\": \"120 540\",\r\n       
+    \"currency\": \"\u0412\u043E\u043D\u0430 \u041A\u041D\u0414\u0420 (KPW)\",\r\n       
+    \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 390,\r\n       
+    \"name\": \"\u0421\u0435\u0439\u0448\u0435\u043B\u044C\u0441\u043A\u0438\u0435
+    \u043E\u0441\u0442\u0440\u043E\u0432\u0430\",\r\n        \"capital\": \"\u0412\u0438\u043A\u0442\u043E\u0440\u0438\u044F\",\r\n       
+    \"population\": \"93 186\",\r\n        \"square\": \"455\",\r\n        \"currency\":
+    \"\u0421\u0435\u0439\u0448\u0435\u043B\u044C\u0441\u043A\u0430\u044F \u0440\u0443\u043F\u0438\u044F
+    (SCR)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    391,\r\n        \"name\": \"\u0421\u0435\u043D\u0435\u0433\u0430\u043B\",\r\n       
+    \"capital\": \"\u0414\u0430\u043A\u0430\u0440\",\r\n        \"population\": \"14
+    799 859\",\r\n        \"square\": \"196 190\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E (XOF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 441,\r\n        \"name\":
+    \"\u0421\u0435\u043D\u0442-\u041A\u0438\u0442\u0441 \u0438 \u041D\u0435\u0432\u0438\u0441\",\r\n       
+    \"capital\": \"\u0411\u0430\u0441\u0442\u0435\u0440\",\r\n        \"population\":
+    \"52 329\",\r\n        \"square\": \"261\",\r\n        \"currency\": \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u043E-\u043A\u0430\u0440\u0438\u0431\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (XCD)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 442,\r\n        \"name\": \"\u0421\u0435\u043D\u0442-\u041B\u044E\u0441\u0438\u044F\",\r\n       
+    \"capital\": \"\u041A\u0430\u0441\u0442\u0440\u0438\",\r\n        \"population\":
+    \"172 818\",\r\n        \"square\": \"620\",\r\n        \"currency\": \"\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u043E-\u043A\u0430\u0440\u0438\u0431\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (XCD)\",\r\n        \"mainland\": \"na\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 295,\r\n        \"name\": \"\u0421\u0435\u0440\u0431\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0435\u043B\u0433\u0440\u0430\u0434\",\r\n        \"population\":
+    \"9 846 582\",\r\n        \"square\": \"88 361\",\r\n        \"currency\": \"\u0421\u0435\u0440\u0431\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (RSD)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 344,\r\n        \"name\": \"\u0421\u0438\u043D\u0433\u0430\u043F\u0443\u0440\",\r\n       
+    \"capital\": \"\u0421\u0438\u043D\u0433\u0430\u043F\u0443\u0440\",\r\n       
+    \"population\": \"5 607 300 \",\r\n        \"square\": \"714\",\r\n        \"currency\":
+    \"\u0421\u0438\u043D\u0433\u0430\u043F\u0443\u0440\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (SGD)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    345,\r\n        \"name\": \"\u0421\u0438\u0440\u0438\u044F\",\r\n        \"capital\":
+    \"\u0414\u0430\u043C\u0430\u0441\u043A\",\r\n        \"population\": \"17 185
+    170\",\r\n        \"square\": \"185 180\",\r\n        \"currency\": \"\u0421\u0438\u0440\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0444\u0443\u043D\u0442 (SYP)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 296,\r\n        \"name\": \"\u0421\u043B\u043E\u0432\u0430\u043A\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0440\u0430\u0442\u0438\u0441\u043B\u0430\u0432\u0430\",\r\n       
+    \"population\": \"5 426 252\",\r\n        \"square\": \"48 845\",\r\n       
+    \"currency\": \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 297,\r\n        \"name\": \"\u0421\u043B\u043E\u0432\u0435\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u041B\u044E\u0431\u043B\u044F\u043D\u0430\",\r\n        \"population\":
+    \"2 064 188\",\r\n        \"square\": \"20 253\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    443,\r\n        \"name\": \"\u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0435
+    \u0428\u0442\u0430\u0442\u044B \u0410\u043C\u0435\u0440\u0438\u043A\u0438\",\r\n       
+    \"capital\": \"\u0412\u0430\u0448\u0438\u043D\u0433\u0442\u043E\u043D\",\r\n       
+    \"population\": \"322 762 018\",\r\n        \"square\": \"9 522 057\",\r\n       
+    \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440 \u0421\u0428\u0410 (USD)\",\r\n       
+    \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\": 417,\r\n       
+    \"name\": \"\u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u044B \u043E\u0441\u0442\u0440\u043E\u0432\u0430\",\r\n       
+    \"capital\": \"\u0425\u043E\u043D\u0438\u0430\u0440\u0430\",\r\n        \"population\":
+    \"651 700\",\r\n        \"square\": \"28 450\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u044B\u0445 \u043E\u0441\u0442\u0440\u043E\u0432\u043E\u0432
+    (SBD)\",\r\n        \"mainland\": \"au\"\r\n    },\r\n    {\r\n        \"country_id\":
+    392,\r\n        \"name\": \"\u0421\u043E\u043C\u0430\u043B\u0438\",\r\n       
+    \"capital\": \"\u041C\u043E\u0433\u0430\u0434\u0438\u0448\u043E\",\r\n       
+    \"population\": \"12 316 895\",\r\n        \"square\": \"637 657\",\r\n       
+    \"currency\": \"\u0421\u043E\u043C\u0430\u043B\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0448\u0438\u043B\u043B\u0438\u043D\u0433 (SOS)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 393,\r\n        \"name\":
+    \"\u0421\u0443\u0434\u0430\u043D\",\r\n        \"capital\": \"\u0425\u0430\u0440\u0442\u0443\u043C\",\r\n       
+    \"population\": \"41 176 000\",\r\n        \"square\": \"1 886 068\",\r\n       
+    \"currency\": \"\u0421\u0443\u0434\u0430\u043D\u0441\u043A\u0438\u0439 \u0444\u0443\u043D\u0442
+    (SDP)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    453,\r\n        \"name\": \"\u0421\u0443\u0440\u0438\u043D\u0430\u043C\",\r\n       
+    \"capital\": \"\u041F\u0430\u0440\u0430\u043C\u0430\u0440\u0438\u0431\u043E\",\r\n       
+    \"population\": \"558 773\",\r\n        \"square\": \"163 270\",\r\n        \"currency\":
+    \"\u0421\u0443\u0440\u0438\u043D\u0430\u043C\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (SRD)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    394,\r\n        \"name\": \"\u0421\u044C\u0435\u0440\u0440\u0430-\u041B\u0435\u043E\u043D\u0435\",\r\n       
+    \"capital\": \"\u0424\u0440\u0438\u0442\u0430\u0443\u043D\",\r\n        \"population\":
+    \"7 075 641\",\r\n        \"square\": \"71 740\",\r\n        \"currency\": \"\u041B\u0435\u043E\u043D\u0435
+    (SLL)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    346,\r\n        \"name\": \"\u0422\u0430\u0434\u0436\u0438\u043A\u0438\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0414\u0443\u0448\u0430\u043D\u0431\u0435\",\r\n        \"population\":
+    \"8 551 000\",\r\n        \"square\": \"143 100\",\r\n        \"currency\": \"\u0421\u043E\u043C\u043E\u043D\u0438
+    (TJS)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    347,\r\n        \"name\": \"\u0422\u0430\u0439\u043B\u0430\u043D\u0434\",\r\n       
+    \"capital\": \"\u0411\u0430\u043D\u0433\u043A\u043E\u043A\",\r\n        \"population\":
+    \"68 147 000\",\r\n        \"square\": \"514 000\",\r\n        \"currency\":
+    \"\u0411\u0430\u0442 (THB)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 395,\r\n        \"name\": \"\u0422\u0430\u043D\u0437\u0430\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0414\u043E\u0434\u043E\u043C\u0430\",\r\n        \"population\":
+    \"50 142 938\",\r\n        \"square\": \"948 087\",\r\n        \"currency\":
+    \"\u0422\u0430\u043D\u0437\u0430\u043D\u0438\u0439\u0441\u043A\u0438\u0439 \u0448\u0438\u043B\u043B\u0438\u043D\u0433
+    (TZS)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    396,\r\n        \"name\": \"\u0422\u043E\u0433\u043E\",\r\n        \"capital\":
+    \"\u041B\u043E\u043C\u0435\",\r\n        \"population\": \"7 143 000\",\r\n       
+    \"square\": \"56 785\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0421\u0415\u0410\u041E (XOF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 418,\r\n        \"name\":
+    \"\u0422\u043E\u043D\u0433\u0430\",\r\n        \"capital\": \"\u041D\u0443\u043A\u0443\u0430\u043B\u043E\u0444\u0430\",\r\n       
+    \"population\": \"106 440\",\r\n        \"square\": \"748 \",\r\n        \"currency\":
+    \"\u041F\u0430\u0430\u043D\u0433\u0430 (TOP)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 419,\r\n        \"name\": \"\u0422\u0440\u0438\u043D\u0438\u0434\u0430\u0434
+    \u0438 \u0422\u043E\u0431\u0430\u0433\u043E\",\r\n        \"capital\": \"\u0410\u043D\u0434\u043E\u0440\u0440\u0430-\u043B\u0430-\u0412\u0435\u043B\u044C\u044F\",\r\n       
+    \"population\": \"78 014\",\r\n        \"square\": \"468\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"au\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 420,\r\n        \"name\": \"\u0422\u0443\u0432\u0430\u043B\u0443\",\r\n       
+    \"capital\": \"\u0424\u0443\u043D\u0430\u0444\u0443\u0442\u0438\",\r\n       
+    \"population\": \"10 782\",\r\n        \"square\": \"26.00\",\r\n        \"currency\":
+    \"\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0434\u043E\u043B\u043B\u0430\u0440 (AUD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 397,\r\n        \"name\": \"\u0422\u0443\u043D\u0438\u0441\",\r\n       
+    \"capital\": \"\u0422\u0443\u043D\u0438\u0441\",\r\n        \"population\": \"\u0422\u0443\u043D\u0438\u0441\",\r\n       
+    \"square\": \"163 610\",\r\n        \"currency\": \"\u0422\u0443\u043D\u0438\u0441\u0441\u043A\u0438\u0439
+    \u0434\u0438\u043D\u0430\u0440 (TND)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 348,\r\n        \"name\": \"\u0422\u0443\u0440\u043A\u043C\u0435\u043D\u0438\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0410\u0448\u0445\u0430\u0431\u0430\u0434\",\r\n        \"population\":
+    \"5 439 000\",\r\n        \"square\": \"491 200\",\r\n        \"currency\": \"\u041C\u0430\u043D\u0430\u0442
+    (TMM)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    349,\r\n        \"name\": \"\u0422\u0443\u0440\u0446\u0438\u044F\",\r\n       
+    \"capital\": \"\u0410\u043D\u043A\u0430\u0440\u0430\",\r\n        \"population\":
+    \"78 741 053\",\r\n        \"square\": \"780 580\",\r\n        \"currency\":
+    \"\u0422\u0443\u0440\u0435\u0446\u043A\u0430\u044F \u043B\u0438\u0440\u0430 (TRY)\",\r\n       
+    \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 398,\r\n       
+    \"name\": \"\u0423\u0433\u0430\u043D\u0434\u0430\",\r\n        \"capital\": \"\u041A\u0430\u043C\u043F\u0430\u043B\u0430\",\r\n       
+    \"population\": \"36 860 700\",\r\n        \"square\": \"236 040\",\r\n       
+    \"currency\": \"\u0423\u0433\u0430\u043D\u0434\u0438\u0439\u0441\u043A\u0438\u0439
+    \u0448\u0438\u043B\u043B\u0438\u043D\u0433 (UGX)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 350,\r\n        \"name\":
+    \"\u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\",\r\n       
+    \"capital\": \"\u0422\u0430\u0448\u043A\u0435\u043D\u0442\",\r\n        \"population\":
+    \"31 807 000\",\r\n        \"square\": \"447 400\",\r\n        \"currency\":
+    \"\u0423\u0437\u0431\u0435\u043A\u0441\u043A\u0438\u0439 \u0441\u0443\u043C (UZS)\",\r\n       
+    \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\": 298,\r\n       
+    \"name\": \"\u0423\u043A\u0440\u0430\u0438\u043D\u0430\",\r\n        \"capital\":
+    \"\u041A\u0438\u0435\u0432\",\r\n        \"population\": \"42 650 186\",\r\n       
+    \"square\": \"576 604\",\r\n        \"currency\": \"\u0413\u0440\u0438\u0432\u043D\u0430
+    (UAH)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    454,\r\n        \"name\": \"\u0423\u0440\u0443\u0433\u0432\u0430\u0439\",\r\n       
+    \"capital\": \"\u041C\u043E\u043D\u0442\u0435\u0432\u0438\u0434\u0435\u043E\",\r\n       
+    \"population\": \"3 480 222\",\r\n        \"square\": \"176 220\",\r\n       
+    \"currency\": \"\u0423\u0440\u0443\u0433\u0432\u0430\u0439\u0441\u043A\u043E\u0435
+    \u043F\u0435\u0441\u043E (UYU)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 421,\r\n        \"name\": \"\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435
+    \u0428\u0442\u0430\u0442\u044B \u041C\u0438\u043A\u0440\u043E\u043D\u0435\u0437\u0438\u0438\",\r\n       
+    \"capital\": \"\u041F\u0430\u043B\u0438\u043A\u0438\u0440\",\r\n        \"population\":
+    \"105 681\",\r\n        \"square\": \"702\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u0421\u0428\u0410 (USD)\",\r\n        \"mainland\": \"au\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 422,\r\n        \"name\": \"\u0424\u0438\u0434\u0436\u0438\",\r\n       
+    \"capital\": \"\u0421\u0443\u0432\u0430\",\r\n        \"population\": \"903 207\",\r\n       
+    \"square\": \"18 270\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u0424\u0438\u0434\u0436\u0438 (FJD)\",\r\n        \"mainland\": \"au\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 351,\r\n        \"name\": \"\u0424\u0438\u043B\u0438\u043F\u043F\u0438\u043D\u044B\",\r\n       
+    \"capital\": \"\u041C\u0430\u043D\u0438\u043B\u0430\",\r\n        \"population\":
+    \"102 980 480\",\r\n        \"square\": \"300 000\",\r\n        \"currency\":
+    \"\u0424\u0438\u043B\u0438\u043F\u043F\u0438\u043D\u0441\u043A\u043E\u0435 \u043F\u0435\u0441\u043E
+    (PHP)\",\r\n        \"mainland\": \"as\"\r\n    },\r\n    {\r\n        \"country_id\":
+    299,\r\n        \"name\": \"\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F\",\r\n       
+    \"capital\": \"\u0425\u0435\u043B\u044C\u0441\u0438\u043D\u043A\u0438\",\r\n       
+    \"population\": \"5 487 308\",\r\n        \"square\": \"337 030\",\r\n       
+    \"currency\": \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 300,\r\n        \"name\": \"\u0424\u0440\u0430\u043D\u0446\u0438\u044F\",\r\n       
+    \"capital\": \"\u041F\u0430\u0440\u0438\u0436\",\r\n        \"population\": \"64
+    513 242\",\r\n        \"square\": \"547 030\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    301,\r\n        \"name\": \"\u0425\u043E\u0440\u0432\u0430\u0442\u0438\u044F\",\r\n       
+    \"capital\": \"\u0417\u0430\u0433\u0440\u0435\u0431\",\r\n        \"population\":
+    \"4 190 669\",\r\n        \"square\": \"56 542\",\r\n        \"currency\": \"\u041A\u0443\u043D\u0430
+    (HRK)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    399,\r\n        \"name\": \"\u0426\u0435\u043D\u0442\u0440\u0430\u043B\u044C\u043D\u043E\u0430\u0444\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0430\u044F
+    \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430\",\r\n        \"capital\":
+    \"\u0411\u0430\u043D\u0433\u0438\",\r\n        \"population\": \"5 277 959\",\r\n       
+    \"square\": \"622 984\",\r\n        \"currency\": \"\u0424\u0440\u0430\u043D\u043A
+    \u041A\u0424\u0410 \u0412\u0415\u0410\u0421 (XAF)\",\r\n        \"mainland\":
+    \"af\"\r\n    },\r\n    {\r\n        \"country_id\": 400,\r\n        \"name\":
+    \"\u0427\u0430\u0434\",\r\n        \"capital\": \"\u041D\u0434\u0436\u0430\u043C\u0435\u043D\u0430\",\r\n       
+    \"population\": \"14 497 000\",\r\n        \"square\": \"1 284 000\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0415\u0410\u0421
+    (XAF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    302,\r\n        \"name\": \"\u0427\u0435\u0440\u043D\u043E\u0433\u043E\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u041F\u043E\u0434\u0433\u043E\u0440\u0438\u0446\u0430\",\r\n       
+    \"population\": \"622 218\",\r\n        \"square\": \"14 026\",\r\n        \"currency\":
+    \"\u0415\u0432\u0440\u043E (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 303,\r\n        \"name\": \"\u0427\u0435\u0445\u0438\u044F\",\r\n       
+    \"capital\": \"\u041F\u0440\u0430\u0433\u0430\",\r\n        \"population\": \"10
+    553 843\",\r\n        \"square\": \"78 866\",\r\n        \"currency\": \"\u0427\u0435\u0448\u0441\u043A\u0430\u044F
+    \u043A\u0440\u043E\u043D\u0430 (CZK)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 455,\r\n        \"name\": \"\u0427\u0438\u043B\u0438\",\r\n       
+    \"capital\": \"\u0421\u0430\u043D\u0442\u044C\u044F\u0433\u043E\",\r\n       
+    \"population\": \"18 006 407\",\r\n        \"square\": \"756 950\",\r\n       
+    \"currency\": \"\u0427\u0438\u043B\u0438\u0439\u0441\u043A\u043E\u0435 \u043F\u0435\u0441\u043E
+    (CLP)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n    {\r\n        \"country_id\":
+    304,\r\n        \"name\": \"\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044F\",\r\n       
+    \"capital\": \"\u0411\u0435\u0440\u043D\",\r\n        \"population\": \"8 325
+    194\",\r\n        \"square\": \"41 290\",\r\n        \"currency\": \"\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043A\u0438\u0439
+    \u0444\u0440\u0430\u043D\u043A (CHF)\",\r\n        \"mainland\": \"eu\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 305,\r\n        \"name\": \"\u0428\u0432\u0435\u0446\u0438\u044F\",\r\n       
+    \"capital\": \"\u0421\u0442\u043E\u043A\u0433\u043E\u043B\u044C\u043C\",\r\n       
+    \"population\": \"9 851 017\",\r\n        \"square\": \"449 964\",\r\n       
+    \"currency\": \"\u0428\u0432\u0435\u0434\u0441\u043A\u0430\u044F \u043A\u0440\u043E\u043D\u0430
+    (SEK)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    352,\r\n        \"name\": \"\u0428\u0440\u0438-\u041B\u0430\u043D\u043A\u0430\",\r\n       
+    \"capital\": \"\u0428\u0440\u0438-\u0414\u0436\u0430\u044F\u0432\u0430\u0440\u0434\u0435\u043D\u0435\u043F\u0443\u0440\u0430-\u041A\u043E\u0442\u0442\u0435\",\r\n       
+    \"population\": \"21 866 445\",\r\n        \"square\": \"65 610\",\r\n       
+    \"currency\": \"\u0428\u0440\u0438-\u041B\u0430\u043D\u043A\u0438\u0439\u0441\u043A\u0430\u044F
+    \u0440\u0443\u043F\u0438\u044F (LKR)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 456,\r\n        \"name\": \"\u042D\u043A\u0432\u0430\u0434\u043E\u0440\",\r\n       
+    \"capital\": \"\u041A\u0438\u0442\u043E\",\r\n        \"population\": \"16 599
+    593\",\r\n        \"square\": \"283 560\",\r\n        \"currency\": \"\u0414\u043E\u043B\u043B\u0430\u0440
+    \u0421\u0428\u0410 (USD)\",\r\n        \"mainland\": \"sa\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 401,\r\n        \"name\": \"\u042D\u043A\u0432\u0430\u0442\u043E\u0440\u0438\u0430\u043B\u044C\u043D\u0430\u044F
+    \u0413\u0432\u0438\u043D\u0435\u044F\",\r\n        \"capital\": \"\u041C\u0430\u043B\u0430\u0431\u043E\",\r\n       
+    \"population\": \"1 222 442\",\r\n        \"square\": \"28 051\",\r\n       
+    \"currency\": \"\u0424\u0440\u0430\u043D\u043A \u041A\u0424\u0410 \u0412\u0415\u0410\u0421
+    (XAF)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    402,\r\n        \"name\": \"\u042D\u0440\u0438\u0442\u0440\u0435\u044F\",\r\n       
+    \"capital\": \"\u0410\u0441\u043C\u044D\u0440\u0430\",\r\n        \"population\":
+    \"5 352 000\",\r\n        \"square\": \"121 320\",\r\n        \"currency\": \"\u041D\u0430\u043A\u0444\u0430
+    (ERN)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    306,\r\n        \"name\": \"\u042D\u0441\u0442\u043E\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0422\u0430\u043B\u043B\u0438\u043D\",\r\n        \"population\":
+    \"1 315 944\",\r\n        \"square\": \"45 226\",\r\n        \"currency\": \"\u0415\u0432\u0440\u043E
+    (EUR)\",\r\n        \"mainland\": \"eu\"\r\n    },\r\n    {\r\n        \"country_id\":
+    403,\r\n        \"name\": \"\u042D\u0444\u0438\u043E\u043F\u0438\u044F\",\r\n       
+    \"capital\": \"\u0410\u0434\u0434\u0438\u0441-\u0410\u0431\u0435\u0431\u0430\",\r\n       
+    \"population\": \"101 853 000\",\r\n        \"square\": \"1 127 127\",\r\n       
+    \"currency\": \"\u042D\u0444\u0438\u043E\u043F\u0441\u043A\u0438\u0439 \u0431\u044B\u0440
+    (ETB)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n    {\r\n        \"country_id\":
+    404,\r\n        \"name\": \"\u042E\u0410\u0420\",\r\n        \"capital\": \"\u041F\u0440\u0435\u0442\u043E\u0440\u0438\u044F\",\r\n       
+    \"population\": \"55 908 900\",\r\n        \"square\": \"1 219 912\",\r\n       
+    \"currency\": \"\u0420\u044D\u043D\u0434 (ZAR)\",\r\n        \"mainland\": \"af\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 353,\r\n        \"name\": \"\u042E\u0436\u043D\u0430\u044F
+    \u041A\u043E\u0440\u0435\u044F\",\r\n        \"capital\": \"\u0421\u0435\u0443\u043B\",\r\n       
+    \"population\": \"51 664 244\",\r\n        \"square\": \"98 480\",\r\n       
+    \"currency\": \"\u0412\u043E\u043D\u0430 (KRW)\",\r\n        \"mainland\": \"as\"\r\n   
+    },\r\n    {\r\n        \"country_id\": 405,\r\n        \"name\": \"\u042E\u0436\u043D\u044B\u0439
+    \u0421\u0443\u0434\u0430\u043D\",\r\n        \"capital\": \"\u0414\u0436\u0443\u0431\u0430\",\r\n       
+    \"population\": \"12 733 000\",\r\n        \"square\": \"619 745\",\r\n       
+    \"currency\": \"\u042E\u0436\u043D\u043E\u0441\u0443\u0434\u0430\u043D\u0441\u043A\u0438\u0439
+    \u0444\u0443\u043D\u0442 (SSP)\",\r\n        \"mainland\": \"af\"\r\n    },\r\n   
+    {\r\n        \"country_id\": 444,\r\n        \"name\": \"\u042F\u043C\u0430\u0439\u043A\u0430\",\r\n       
+    \"capital\": \"\u041A\u0438\u043D\u0433\u0441\u0442\u043E\u043D\",\r\n       
+    \"population\": \"2 723 000\",\r\n        \"square\": \"10 990\",\r\n       
+    \"currency\": \"\u042F\u043C\u0430\u0439\u0441\u043A\u0438\u0439 \u0434\u043E\u043B\u043B\u0430\u0440
+    (JMD)\",\r\n        \"mainland\": \"na\"\r\n    },\r\n    {\r\n        \"country_id\":
+    354,\r\n        \"name\": \"\u042F\u043F\u043E\u043D\u0438\u044F\",\r\n       
+    \"capital\": \"\u0422\u043E\u043A\u0438\u043E\",\r\n        \"population\": \"127
+    103 388\",\r\n        \"square\": \"377 944\",\r\n        \"currency\": \"\u0418\u0435\u043D\u0430
+    (JPY)\",\r\n        \"mainland\": \"as\"\r\n    }\r\n]\r\n"
+--- !u!222 &1091129710
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091129708}
+  m_CullTransparentMesh: 1
+--- !u!224 &1091129711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091129708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1051, y: 91}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1136196274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136196277}
+  - component: {fileID: 1136196276}
+  - component: {fileID: 1136196275}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1136196275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136196274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1136196276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136196274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1136196277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136196274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1429271043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1429271044}
+  - component: {fileID: 1429271046}
+  - component: {fileID: 1429271045}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &1429271044
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429271043}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 185636871}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015259, y: 0}
+  m_SizeDelta: {x: 318.9, y: 91.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1429271045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429271043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
+--- !u!222 &1429271046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429271043}
+  m_CullTransparentMesh: 0
+--- !u!1 &1436063762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436063763}
+  - component: {fileID: 1436063765}
+  - component: {fileID: 1436063764}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &1436063763
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436063762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1593129836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1436063764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436063762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0412\u044B\u0439\u0442\u0438"
+--- !u!222 &1436063765
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436063762}
+  m_CullTransparentMesh: 0
+--- !u!1 &1593129835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593129836}
+  - component: {fileID: 1593129839}
+  - component: {fileID: 1593129838}
+  - component: {fileID: 1593129837}
+  m_Layer: 5
+  m_Name: ButtonQuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &1593129836
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593129835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1436063763}
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.0002, y: -201}
+  m_SizeDelta: {x: 318.9, y: 91.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1593129837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593129835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1593129838}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 989049251}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: ButtonQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1593129838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593129835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c49dec645e591114caac11d081103cfc, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1593129839
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593129835}
+  m_CullTransparentMesh: 0
+--- !u!1 &1671419780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671419781}
+  - component: {fileID: 1671419784}
+  - component: {fileID: 1671419783}
+  - component: {fileID: 1671419782}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &1671419781
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671419780}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00032, y: 1.00032, z: 1.00032}
+  m_Children: []
+  m_Father: {fileID: 989049247}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 5, y: 0}
+  m_SizeDelta: {x: 435.5, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1671419782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671419780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1.5980381
+--- !u!114 &1671419783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671419780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 402499e52e6845a40a92c326b86255fa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1671419784
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671419780}
+  m_CullTransparentMesh: 0
+--- !u!1 &1793783423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793783424}
+  m_Layer: 0
+  m_Name: Render
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793783424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793783423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 519420032}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2132830010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132830011}
+  - component: {fileID: 2132830013}
+  - component: {fileID: 2132830012}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &2132830011
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132830010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224262900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2132830012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132830010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0421\u0442\u0440\u0430\u043D\u044B"
+--- !u!222 &2132830013
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132830010}
+  m_CullTransparentMesh: 0

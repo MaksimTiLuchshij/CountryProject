@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mainlands
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a14f0a2c21c122a42b9985ff01587daa, type: 3}
+    - {fileID: 2800000, guid: 6da2251ebf5e8ee40a8e2ebad4f325ae, type: 3}
+    - {fileID: 2800000, guid: 613ac65ac68a6d14885a32d72d756fcf, type: 3}
+    - {fileID: 2800000, guid: c96dd24dd492cbd4c82b0bb8cd645712, type: 3}
+    - {fileID: 2800000, guid: 81b1c12f8b64a3f4985ddbfa0d040914, type: 3}
+    - {fileID: 2800000, guid: 09844f64dce488940b2b738ae8fa1024, type: 3}
+    - {fileID: 2800000, guid: e056fabcb054d7e4b8d2a2c4ee3c7946, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 09844f64dce488940b2b738ae8fa1024, type: 3}
+  - {fileID: 21300000, guid: 613ac65ac68a6d14885a32d72d756fcf, type: 3}
+  - {fileID: 21300000, guid: a14f0a2c21c122a42b9985ff01587daa, type: 3}
+  - {fileID: 21300000, guid: e056fabcb054d7e4b8d2a2c4ee3c7946, type: 3}
+  - {fileID: 21300000, guid: c96dd24dd492cbd4c82b0bb8cd645712, type: 3}
+  - {fileID: 21300000, guid: 6da2251ebf5e8ee40a8e2ebad4f325ae, type: 3}
+  - {fileID: 21300000, guid: 81b1c12f8b64a3f4985ddbfa0d040914, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 5au
+  - 2as
+  - 0world
+  - 6af
+  - 3na
+  - 1eu
+  - 4sa
+  m_RenderDataMap: {}
+  m_Tag: mainlands
+  m_IsVariant: 0
